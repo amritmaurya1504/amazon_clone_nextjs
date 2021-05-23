@@ -20,7 +20,7 @@ const Product = ({id , title , price , description , category , image}) => {
             </div>
             <p className="text-xs my-2 line-clamp-3">{description}</p>
             <div className="mb-5">
-                <Currency quantity={price} currency="GBP" />
+                <Currency quantity={price} currency="INR" />
             </div>
             <button className="mt-auto button">Add to Basket</button>
         </div>
